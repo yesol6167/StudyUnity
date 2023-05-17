@@ -1,0 +1,28 @@
+출처: 어소트락 게임아카데미 유튜브 무료강의 https://www.youtube.com/watch?v=fxVL0y-kEW8&list=PL4SIC1d_ab-aOxWPucn31NHkQvNPHK1D1&index=4
+
+< C++ 을 사용하는 이유 >
+속도가 빠르다. (JAVA, C#과 다르게 가상머신을 거치지 않기 때문에)
+가상머신을 거치지 않기 때문에 직접 메모리를 관리할 수 있다.
+
+ex ) int i = 0
+int = 자료형, i = 변수, 0 = 변수값
+
+자료형의 역할 : 
+Byte의 크기 결정. 
+자료형은 그 공간의 크기가 얼마나 되고 어떠한 데이터를 표현할 것인지를 설명해주는 역할이다. 영어로 Data Type.
+
+Byte
+정수형: char(1), short(2), int(4), long(4), longlong(8)
+실수형: float(4), double(8)
+
+1Byte = 8bit
+bit(비트) :
+더 이상 쪼갤 수 없는 최소 단위로 0또는 1로 표현된다.
+
+Byte - 8bit
+KB = 1024Byte
+MB = 1024KB
+GB = 1024MB
+TB = 1024GB
+
+컴퓨터는 1Byte로 0~255까지의 숫자를 표현하고 256가지의 정수 상태를 표현할 수 있다. (양수만 표현)
